@@ -9,7 +9,7 @@ Authors@R:
          comment = c(ORCID = "0009-0003-4969-1252"))
          )
 Description: Provides curated and harmonized datasets on Benin across key domains such as demography, economy, education, climate, biodiversity, and environment. In addition, it includes built-in functions for data cleaning and exploration.
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
