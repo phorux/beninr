@@ -10,7 +10,15 @@ Authors@R:
          )
 Description: Provides curated and harmonized datasets on Benin across key domains such as demography, economy, education, climate, biodiversity, and environment. In addition, it includes built-in functions for data cleaning and exploration.
 License: GPL (>= 3)
+Imports: 
+    rlang,
+    cli
 Suggests: 
+    arrow,
+    jsonlite,
+    openxlsx2,
+    readr,
+    sf,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
