@@ -22,7 +22,12 @@
 #'   \[Data set\]. Distributed as part of the \pkg{<beninr>} R package.
 #'
 #' @examples
-#' \dontrun{
 #' data(agroeco_zones)
-#'}
+#'
+#' # Transform to projected system
+#' if (!requireNamespace("sf")) {
+#'   agroeco_zones <- agroeco_zones %>%
+#'     sf::st_transform(crs = "EPSG:32631")
+#' }
+#'
 "agroeco_zones"
