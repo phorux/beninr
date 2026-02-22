@@ -32,8 +32,13 @@ country's climatic and vegetation gradients, ranging from the humid
 Guinean zone in the south to the arid Sahelian zone in the north.
 }
 \examples{
-\dontrun{
 data(agroeco_zones)
+
+# Transform to projected system
+if (!requireNamespace("sf")) {
+  agroeco_zones <- agroeco_zones \%>\%
+    sf::st_transform(crs = "EPSG:32631")
 }
+
 }
 \keyword{datasets}
