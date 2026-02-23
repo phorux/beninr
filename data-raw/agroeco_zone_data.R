@@ -13,8 +13,8 @@ agroeco_zones <- read_sf("C:/Users/ganda/Downloads/Benin ZA/benin_za.shp") %>%
 
 # I realized EPSG:32631 cause ASCII warning during the package check.
 # So transform back to geographic system.
-agroeco_zones <- agroeco_zones %>%
-  st_transform(crs = 4326)
+# agroeco_zones <- agroeco_zones %>%
+#   st_transform(crs = 4326)
 
 #Encoding(sf::st_crs(agroeco_zones)$wkt) <- "UTF-8"
 usethis::use_data(agroeco_zones, overwrite = TRUE)
