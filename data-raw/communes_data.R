@@ -12,6 +12,4 @@ communes <- read_sf("E:\\benindata\\boundary\\adm_commune.shp") %>%
          superficie_km2 = as.numeric(st_area(.))/1e6) %>%
   select(nom, code, population, perimetre_km, superficie_km2)
 
-
-
 usethis::use_data(communes, overwrite = TRUE)
