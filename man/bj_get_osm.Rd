@@ -15,11 +15,11 @@ bj_get_osm(
 \arguments{
 \item{format}{\code{character}. File format to download. One of:
 \itemize{
-\item \code{"shp"} — ESRI Shapefile (\code{.shp.zip}). Extracts to multiple
+\item \code{"shp"} - ESRI Shapefile (\code{.shp.zip}). Extracts to multiple
 theme-based shapefiles (roads, buildings, waterways, etc.).
-\item \code{"gpkg"} — GeoPackage (\code{.gpkg.zip}). Same content as
+\item \code{"gpkg"} - GeoPackage (\code{.gpkg.zip}). Same content as
 Shapefile but in modern OGC GeoPackage format.
-\item \code{"pbf"} — Protocolbuffer Binary Format (\code{.osm.pbf}). Compact
+\item \code{"pbf"} - Protocolbuffer Binary Format (\code{.osm.pbf}). Compact
 format suitable for Osmium, Osmosis, osm2pgsql.
 }}
 
