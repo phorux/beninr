@@ -16,5 +16,4 @@ agroeco_zones <- read_sf("C:/Users/ganda/Downloads/Benin ZA/benin_za.shp") %>%
 agroeco_zones <- agroeco_zones %>%
   st_transform(crs = 4326)
 
-#Encoding(sf::st_crs(agroeco_zones)$wkt) <- "UTF-8"
 usethis::use_data(agroeco_zones, overwrite = TRUE)

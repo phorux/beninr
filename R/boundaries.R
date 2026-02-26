@@ -176,7 +176,6 @@ bj_get_arcgis_layer <- function(item_id,
   result
 }
 
-
 # Wrapper helpers (internal)
 
 #' Shared parameter documentation for `bj_get_*` wrapper functions
