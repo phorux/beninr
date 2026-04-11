@@ -1,17 +1,13 @@
 
-# beninr
+# beninr <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/beninr)](https://CRAN.R-project.org/package=beninr)
 
-**beninr** is an R package that Provides curated and harmonized datasets on 
+**beninr** is an R package that provides curated and harmonized datasets on 
 Benin across key domains such as demography, economy, education, climate, 
 biodiversity, and environment. In addition, it includes built-in functions 
 for data cleaning and exploration.
-
-------------------------------------------------------------------------
 
 ## Installation
 

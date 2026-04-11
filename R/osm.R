@@ -65,6 +65,7 @@
 #' bj_get_osm(format = "shp", dest_dir = "data/osm", overwrite = TRUE)
 #' }
 #'
+#' @importFrom utils unzip
 #' @importFrom httr2 request req_perform resp_body_raw
 #' @importFrom rlang arg_match
 #' @importFrom cli cli_h1 cli_alert_info cli_alert_success cli_alert_warning
